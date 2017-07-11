@@ -1,0 +1,95 @@
+body {
+  font-family: Arial, sans-serif;
+  width: 940px;
+  margin: 5% auto;
+  min-height: 100%;
+  background-image: url(../images/adventure.jpg);
+}
+ul {
+  padding-left: 0;
+  list-style: none;
+}
+li {
+  padding: 5px 0;
+}
+li::before {
+  content: "• ";
+  color: #EC6778;
+}
+
+.col-40, .col-60 {
+  display: table-cell;
+  margin: 0;
+  vertical-align: top;
+}
+.col-40 {
+  background-image: url(../images/madera.jpg);
+  padding: 30px;
+  border: 10px black;
+  color: #000;
+}
+
+#juego div {
+
+  text-align: center;
+  animation: fadein 2s;
+}
+
+@keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+#juego{
+  width: 600px;
+  height: 600px;
+  margin-left: 10px;
+}
+
+.col-40{
+background-color: red;
+}
+
+.col-60{
+  margin-left: 5px;
+}
+
+.pieza{
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+  box-sizing: border-box;
+  float: left;
+  background-image: url(../images/adventure.jpg);
+}
+
+.pieza img{
+  width: 100%;
+}
+
+#boton{
+  width: 100px;
+  height: 100px;
+  border: 1px solid #2e518b;
+  padding: 10px;
+  background-color: #2e518b;
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Helvetica', sans-serif;
+  border-radius: 50px;
+}
+
+#footer{
+  background-color: black;
+  text-align: center;
+  color: white;
+  border-radius:20px;
+  height: 40px;
+  border-top: 3px;
+  box-sizing: border-box;
+}
+
+#footer textarea{
+  width: 100%;
+}

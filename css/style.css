@@ -1,0 +1,73 @@
+h1{
+  color:green;
+  font-size: 20px;
+  margin: 0;
+  margin-left: 2%;
+  text-align: right;
+  border-bottom: green solid 3px;
+  }
+h2{
+  margin-bottom: 0;
+  text-transform: uppercase;
+  color: red;
+  margin-left: 2%;
+}
+h3{
+  margin-top: 0;
+  font-size: 17px;
+  color: blue;
+  margin-left: 2%
+}
+div.izquierda{
+  float: left;
+  width: 30%;
+  background-color: white;
+  margin-right: 3%;
+}
+div.derecha{
+  float: right;
+  width: 65%;
+  margin: 0;
+  padding: 0;
+
+}
+body{
+  background-color: grey;
+  margin: 5px;
+}
+.seccion{
+  margin-bottom: 15px;
+  background-color: white;
+  border-radius: 20px;
+  border: black solid 4px;
+}
+img{
+  height: 25%;
+  width: 94%;
+  margin-left: 3%;
+  margin-right: 3%;
+  margin-top: 3%;
+  border: black solid 2px;
+  box-sizing: border-box;
+}
+.subtitulo{
+  font-size: 30px;
+font-weight: bold;
+}
+.lista_redireccionado{
+  font-size: 20px;
+  color: black;
+  box-sizing: border-box;
+}
+.txt {
+  font-size: 20px;
+  margin-left: 2%;
+}
+.txt2 {
+  font-size: 25px;
+  margin-left: 2%;
+}
+.datos {
+  border-bottom: black dotted 1px;
+  list-style: none;
+}
